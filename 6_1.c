@@ -23,7 +23,7 @@ void DFS(int nod)
         }
     }
 }
-
+//tesssst
 void bfs(int start)
 {
     int queue[N], front = 0, rear = 0;
