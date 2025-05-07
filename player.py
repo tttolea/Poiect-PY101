@@ -2,13 +2,8 @@ import item
 import dice
 import inventory
 class player:
-    def __init__(self, name, hp):
+    def __init__(self, name, hp,dmg):
         self.name=name
         self.hp=hp
-        
+        self.dmg=dmg
 
-    def heal(self, item, roll):
-        self.hp+=item.dmg*roll
-
-    def dmg(self,dmg):
-        self.hp-=dmg*dice.dice()

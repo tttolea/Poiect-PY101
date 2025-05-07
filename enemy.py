@@ -1,5 +1,5 @@
 import item
-import dice
+
 class enemy:
     def __init__(self, name, dmg, type, hp,stry):
         self.name=name
